@@ -1,0 +1,21 @@
+# Ignore the data downloaded by kagglehub
+.cache/
+datasets/
+
+# Ignore common python/notebook clutter
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore any large CSV or data files
+*.csv
+*.gz
+*.zip.cache/
+datasets/
+
+# Ignore the specific folder where your data is
+01_pytorch2.0/datasets/
+
+# General ignores
+*.csv
+*-ubyte
+.cache/
